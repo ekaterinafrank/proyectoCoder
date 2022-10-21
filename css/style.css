@@ -15,25 +15,57 @@
 .gridContenedor{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 2fr, 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas:
     "carousel mapa"
-    "carousel section";
+    "section img";
     gap: 5px;
 }
 
 @media screen and (max-width: 950px){
+    iframe{
+        width: 150%;
+    }
     .gridContenedor{
         grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
         grid-auto-rows: 220px;
+        grid-template-areas:
+        "carousel mapa"
+        "section img";
+    }
+    
+}
+
+@media screen and (max-width: 660px) {
+    iframe{
+        width: 80%;
+        height: 75%;
+    }
+    .gridContenedor{
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-auto-rows: 100px;
+        grid-template-areas: 
+        "carousel mapa"
+        "section img";
     }
     
 }
 
 
 
+
 /*--------HEADER-------*/
 
+
+
+header nav h3{
+    font-family:'Raleway', sans-serif;
+    font-style: italic;
+    font-size: small;
+    padding-bottom: 10px;
+}
 
 header nav{
     margin: 0;
@@ -60,6 +92,8 @@ header nav img{
     text-align: center;
     
 }
+
+
 
 /*-----MAIN-----*/
 
@@ -225,6 +259,12 @@ main section div{
     text-align: center;
     margin: 10px;
     padding: 10px;
+    width: 100%;
+}
+
+
+main img{
+    width: 300px;
 }
 
 
@@ -413,5 +453,13 @@ footer h5{
     font-family: 'Raleway', sans-serif; 
     margin: 5px;
 }
+
+.pieDePagina{
+    width: 200px;
+}
+
+
+
+
 
 

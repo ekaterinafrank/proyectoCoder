@@ -1,0 +1,20 @@
+$color-principal: rgb(243,139,174);
+$color-secundario:  rgb(255, 245, 228); 
+$color-terciario: rgb(255, 196, 196);
+$color-cuaternario: rgb(133, 14, 53);
+
+/*---EXTENDS---*/
+
+%flex{
+    display: flex;
+    justify-content: space-evenly;
+    display: inline-block;
+    text-align: center;
+}
+
+/*---MIXING----*/
+@mixin font ($style, $size, $weight){
+    font-style: $style;
+    font-size: $size;
+    font-weight: $weight;
+}

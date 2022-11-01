@@ -1,0 +1,407 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*---EXTENDS---*/
+main .poductos div, main .Anillos div, main .Aros div, main .Colgantes div, main .Pulseras div {
+  display: flex;
+  justify-content: space-evenly;
+  display: inline-block;
+  text-align: center; }
+
+/*---MIXING----*/
+header nav {
+  margin: 0;
+  position: sticky;
+  text-align: center;
+  text-decoration: none;
+  background-color: #fff5e4;
+  top: 0;
+  text-decoration: none;
+  font-style: normal; }
+  header nav img {
+    margin: 15px;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    transition: 0.5s; }
+    header nav img:hover {
+      transform: scale(1.05); }
+  header nav h1 {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: small;
+    padding-bottom: 10px; }
+  header nav ul {
+    margin: 0px;
+    padding: 0px; }
+    header nav ul li {
+      text-decoration: none;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      color: white;
+      display: inline-block;
+      background-color: #f38bae;
+      border-radius: 6%;
+      margin: 10px;
+      padding: 6px;
+      position: relative;
+      list-style: none; }
+      header nav ul li a {
+        text-decoration: none;
+        color: white; }
+        header nav ul li a:hover {
+          color: white; }
+      header nav ul li .submenu {
+        position: absolute;
+        display: none; }
+        header nav ul li .submenu li {
+          display: block;
+          text-align: center;
+          margin-left: -5px; }
+      header nav ul li:hover .submenu {
+        display: block; }
+
+main {
+  display: flex;
+  display: block;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  margin: 5px;
+  padding: 5px; }
+  main section div {
+    width: 85%;
+    font-family: 'Raleway', sans-serif; }
+  main section h2 {
+    font-family: 'Raleway', sans-serif;
+    margin: 10px; }
+  main section p {
+    font-family: 'Raleway', sans-serif; }
+  main img {
+    width: 300px; }
+  main .poductos div {
+    border: 2px solid black;
+    height: 290px;
+    margin: 12px; }
+    main .poductos div h3 {
+      font-style: italic;
+      font-size: medium;
+      font-weight: 600;
+      font-family: 'Ralaway', sans-serif;
+      margin-bottom: 5px; }
+    main .poductos div a {
+      text-decoration: none;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      background-color: #ffc4c4;
+      color: black;
+      border-radius: 10%;
+      margin: 50px;
+      padding: 5px; }
+    main .poductos div img {
+      width: 300px; }
+  main .poductos .cardAnillos {
+    transition: 0.5s; }
+    main .poductos .cardAnillos:hover {
+      transform: scale(1.05); }
+  main .poductos .cardAros {
+    transition: 0.5s; }
+    main .poductos .cardAros:hover {
+      transform: scale(1.05); }
+  main .poductos .cardColgantes {
+    transition: 0.5s; }
+    main .poductos .cardColgantes:hover {
+      transform: scale(1.05); }
+  main .poductos .cardPulseras {
+    transition: 0.5s; }
+    main .poductos .cardPulseras:hover {
+      transform: scale(1.05); }
+  main .Anillos div {
+    border: 2px solid black;
+    height: 290px;
+    margin: 12px; }
+    main .Anillos div h3 {
+      font-family: 'Ralaway', sans-serif;
+      font-style: italic;
+      font-size: medium;
+      font-weight: 600;
+      margin-bottom: 5px; }
+    main .Anillos div a {
+      text-decoration: none;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      background-color: #ffc4c4;
+      color: black;
+      border-radius: 10%;
+      margin: 50px;
+      padding: 5px; }
+    main .Anillos div img {
+      width: 300px; }
+  main .Anillos .Anillos1 {
+    transition: 0.5s; }
+    main .Anillos .Anillos1:hover {
+      transform: scale(1.05); }
+  main .Anillos .Anillos2 {
+    transition: 0.5s; }
+    main .Anillos .Anillos2:hover {
+      transform: scale(1.05); }
+  main .Anillos .Anillos3 {
+    transition: 0.5s; }
+    main .Anillos .Anillos3:hover {
+      transform: scale(1.05); }
+  main .Anillos .Anillos4 {
+    transition: 0.5s; }
+    main .Anillos .Anillos4:hover {
+      transform: scale(1.05); }
+  main .Aros div {
+    border: 2px solid black;
+    height: 290px;
+    margin: 12px; }
+    main .Aros div h3 {
+      font-family: 'Ralaway', sans-serif;
+      font-style: italic;
+      font-size: medium;
+      font-weight: 600;
+      margin-bottom: 5px; }
+    main .Aros div a {
+      text-decoration: none;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      background-color: #ffc4c4;
+      color: black;
+      border-radius: 10%;
+      margin: 50px;
+      padding: 5px; }
+    main .Aros div img {
+      width: 300px; }
+  main .Aros .Aros1 {
+    transition: 0.5s; }
+    main .Aros .Aros1:hover {
+      transform: scale(1.05); }
+  main .Aros .Aros2 {
+    transition: 0.5s; }
+    main .Aros .Aros2:hover {
+      transform: scale(1.05); }
+  main .Aros .Aros3 {
+    transition: 0.5s; }
+    main .Aros .Aros3:hover {
+      transform: scale(1.05); }
+  main .Aros .Aros4 {
+    transition: 0.5s; }
+    main .Aros .Aros4:hover {
+      transform: scale(1.05); }
+  main .Colgantes div {
+    border: 2px solid black;
+    height: 290px;
+    margin: 12px; }
+    main .Colgantes div h3 {
+      font-family: 'Ralaway', sans-serif;
+      font-style: italic;
+      font-size: medium;
+      font-weight: 600;
+      margin-bottom: 5px; }
+    main .Colgantes div a {
+      text-decoration: none;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      background-color: #ffc4c4;
+      color: black;
+      border-radius: 10%;
+      margin: 50px;
+      padding: 5px; }
+    main .Colgantes div img {
+      width: 300px; }
+  main .Colgantes .Colgantes1 {
+    transition: 0.5s; }
+    main .Colgantes .Colgantes1:hover {
+      transform: scale(1.05); }
+  main .Colgantes .Colgantes2 {
+    transition: 0.5s; }
+    main .Colgantes .Colgantes2:hover {
+      transform: scale(1.05); }
+  main .Colgantes .Colgantes3 {
+    transition: 0.5s; }
+    main .Colgantes .Colgantes3:hover {
+      transform: scale(1.05); }
+  main .Colgantes .Colgantes4 {
+    transition: 0.5s; }
+    main .Colgantes .Colgantes4:hover {
+      transform: scale(1.05); }
+  main .Pulseras div {
+    border: 2px solid black;
+    height: 290px;
+    margin: 12px; }
+    main .Pulseras div h3 {
+      font-family: 'Ralaway', sans-serif;
+      font-style: italic;
+      font-size: medium;
+      font-weight: 600;
+      margin-bottom: 5px; }
+    main .Pulseras div a {
+      text-decoration: none;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      background-color: #ffc4c4;
+      color: black;
+      border-radius: 10%;
+      margin: 50px;
+      padding: 5px; }
+    main .Pulseras div img {
+      width: 300px; }
+  main .Pulseras .Pulseras1 {
+    transition: 0.5s; }
+    main .Pulseras .Pulseras1:hover {
+      transform: scale(1.05); }
+  main .Pulseras .Pulseras2 {
+    transition: 0.5s; }
+    main .Pulseras .Pulseras2:hover {
+      transform: scale(1.05); }
+  main .Pulseras .Pulseras3 {
+    transition: 0.5s; }
+    main .Pulseras .Pulseras3:hover {
+      transform: scale(1.05); }
+  main .Pulseras .Pulseras4 {
+    transition: 0.5s; }
+    main .Pulseras .Pulseras4:hover {
+      transform: scale(1.05); }
+  main .quienesSomos img {
+    width: 300px; }
+  main .quienesSomos .sobreNosotros {
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    background-color: #fff5e4;
+    width: 300px; }
+    main .quienesSomos .sobreNosotros h3 {
+      margin: 5px; }
+    main .quienesSomos .sobreNosotros p {
+      margin: 5px; }
+    main .quienesSomos .sobreNosotros h4 {
+      margin: 5px; }
+  main .ayuda {
+    font-family: 'Raleway', sans-serif; }
+    main .ayuda div {
+      margin: 25px; }
+    main .ayuda img {
+      width: 400px;
+      margin: 5px;
+      padding-top: 30px; }
+    main .ayuda .parrafo {
+      background-color: #850e35;
+      color: white;
+      width: 400px;
+      display: inline-block;
+      margin: 5px;
+      padding: 5px;
+      transition: 0.5s; }
+      main .ayuda .parrafo:hover {
+        transform: scale(1.05); }
+      main .ayuda .parrafo h3 {
+        margin: 5px;
+        padding: 2px;
+        text-align: center; }
+    main .ayuda .parrafo2 {
+      background-color: #fff5e4;
+      width: 400px;
+      display: inline-block;
+      margin: 5px;
+      padding: 2px;
+      text-align: center;
+      transition: 0.5s; }
+      main .ayuda .parrafo2:hover {
+        transform: scale(1.05); }
+      main .ayuda .parrafo2 img {
+        width: 65px; }
+  main section .mapa {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 100%; }
+  main section .nombre {
+    margin: 5px;
+    padding: 5px; }
+  main section .apellido {
+    margin: 5px;
+    padding: 5px; }
+  main section .correo {
+    margin: 5px;
+    padding: 5px; }
+  main section .contrasenia {
+    margin: 5px;
+    padding: 5px; }
+  main section .genero {
+    margin: 5px;
+    padding: 5px; }
+  main section .lugar {
+    margin: 5px;
+    padding: 5px; }
+  main section .texto {
+    margin: 5px;
+    padding: 5px; }
+  main h2 {
+    margin: 5px; }
+
+.fixed {
+  position: fixed;
+  right: 3%;
+  bottom: 10%;
+  background-color: #f38bae;
+  border-radius: 100%;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+  font-family: 'Raleway', sans-serif;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.31);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.31); }
+  .fixed h5 {
+    margin: 5px; }
+  .fixed p {
+    font-size: 15px;
+    font-weight: bold; }
+
+footer {
+  margin: 0;
+  padding: 0;
+  background-color: #ffc4c4;
+  text-align: center;
+  width: 200px; }
+  footer a {
+    margin: 5px,0px,5px,0px; }
+  footer h2 {
+    font-family: 'Raleway', sans-serif;
+    margin: 5px; }
+  footer h5 {
+    font-family: 'Raleway', sans-serif;
+    margin: 5px; }
+
+.gridContenedor {
+  display: flex; }
+
+@media screen and (max-width: 950px) {
+  .gridContenedor {
+    display: flex;
+    flex-direction: column; }
+  header nav .barraNavegacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0; } }
+
+@media screen and (max-width: 650px) {
+  .gridContenedor {
+    display: flex;
+    flex-direction: column; }
+  header nav .barraNavegacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; } }

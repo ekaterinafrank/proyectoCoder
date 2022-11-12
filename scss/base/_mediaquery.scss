@@ -7,12 +7,17 @@
         display: flex;
         flex-direction: column;
     }
+
+    footer{
+        width: 100vh;
+    }
     header nav .barraNavegacion{
         display: flex;
         flex-wrap: wrap; 
         justify-content: space-between; 
         align-items: center;
         padding: 0; 
+        width: auto;
         }
 
 
@@ -26,7 +31,23 @@
     header nav .barraNavegacion{
     display: flex;
     flex-wrap: wrap; 
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center; 
+    height: 100vh;
+    }
+    .contacto{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-between;
+        align-items: center; 
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+
+    footer{
+        width: 100vh;
     }
 }

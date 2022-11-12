@@ -5,6 +5,8 @@ main{
     font-family: 'Raleway', sans-serif;
     margin: 5px;
     padding: 5px;
+    min-height: calc(100vh - 235px - 200px);
+    
 
     section{
         div{
@@ -364,13 +366,18 @@ main{
         }
         
     }
-    section{
-        .mapa{
-            font-family: 'Raleway', sans-serif;
-            text-align: center;
-            margin: 10px;
-            padding: 10px;
-            width: 100%;
+.contacto{
+    display: flex;
+    justify-content: space-evenly;
+    .formulario{
+        color: white;
+        background-color:  rgb(133, 14, 53);
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        margin-left: 200px;
+        padding: 5px;
+        h2{
+            margin: 5px;
         }
         .nombre{
             margin: 5px;
@@ -404,8 +411,15 @@ main{
             padding: 5px;
         }
     }
-    h2{
-        margin: 5px;
+    .mapa{
+        background-image: url(../img/fondo.jpg);
+        background-size: 800px;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        margin: 50px;
+        padding: 50px;
+        width: 600px;
+        }
+        
     }
-    
-}
+}   

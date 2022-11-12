@@ -20,7 +20,8 @@ header nav {
   background-color: #fff5e4;
   top: 0;
   text-decoration: none;
-  font-style: normal; }
+  font-style: normal;
+  height: 235px; }
   header nav img {
     margin: 15px;
     width: 150px;
@@ -72,7 +73,8 @@ main {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   margin: 5px;
-  padding: 5px; }
+  padding: 5px;
+  min-height: calc(100vh - 235px - 200px); }
   main section div {
     width: 85%;
     font-family: 'Raleway', sans-serif; }
@@ -315,35 +317,47 @@ main {
         transform: scale(1.05); }
       main .ayuda .parrafo2 img {
         width: 65px; }
-  main section .mapa {
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    margin: 10px;
-    padding: 10px;
-    width: 100%; }
-  main section .nombre {
-    margin: 5px;
-    padding: 5px; }
-  main section .apellido {
-    margin: 5px;
-    padding: 5px; }
-  main section .correo {
-    margin: 5px;
-    padding: 5px; }
-  main section .contrasenia {
-    margin: 5px;
-    padding: 5px; }
-  main section .genero {
-    margin: 5px;
-    padding: 5px; }
-  main section .lugar {
-    margin: 5px;
-    padding: 5px; }
-  main section .texto {
-    margin: 5px;
-    padding: 5px; }
-  main h2 {
-    margin: 5px; }
+  main .contacto {
+    display: flex;
+    justify-content: space-evenly; }
+    main .contacto .formulario {
+      color: white;
+      background-color: #850e35;
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+      margin-left: 200px;
+      padding: 5px; }
+      main .contacto .formulario h2 {
+        margin: 5px; }
+      main .contacto .formulario .nombre {
+        margin: 5px;
+        padding: 5px; }
+      main .contacto .formulario .apellido {
+        margin: 5px;
+        padding: 5px; }
+      main .contacto .formulario .correo {
+        margin: 5px;
+        padding: 5px; }
+      main .contacto .formulario .contrasenia {
+        margin: 5px;
+        padding: 5px; }
+      main .contacto .formulario .genero {
+        margin: 5px;
+        padding: 5px; }
+      main .contacto .formulario .lugar {
+        margin: 5px;
+        padding: 5px; }
+      main .contacto .formulario .texto {
+        margin: 5px;
+        padding: 5px; }
+    main .contacto .mapa {
+      background-image: url(../img/fondo.jpg);
+      background-size: 800px;
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+      margin: 50px;
+      padding: 50px;
+      width: 600px; }
 
 .fixed {
   position: fixed;
@@ -368,11 +382,15 @@ main {
     font-weight: bold; }
 
 footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   margin: 0;
   padding: 0;
   background-color: #ffc4c4;
   text-align: center;
-  width: 200px; }
+  width: 200px;
+  height: 200px; }
   footer a {
     margin: 5px,0px,5px,0px; }
   footer h2 {
@@ -389,12 +407,15 @@ footer {
   .gridContenedor {
     display: flex;
     flex-direction: column; }
+  footer {
+    width: 100vh; }
   header nav .barraNavegacion {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 0; } }
+    padding: 0;
+    width: auto; } }
 
 @media screen and (max-width: 650px) {
   .gridContenedor {
@@ -404,4 +425,16 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center; } }
+    align-items: center;
+    height: 100vh; }
+  .contacto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; }
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%; }
+  footer {
+    width: 100vh; } }

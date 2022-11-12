@@ -19,12 +19,17 @@
         display: flex;
         flex-direction: column;
     }
+
+    footer{
+        width: 100vh;
+    }
     header nav .barraNavegacion{
         display: flex;
         flex-wrap: wrap; 
         justify-content: space-between; 
         align-items: center;
         padding: 0; 
+        width: auto;
         }
 
 
@@ -38,8 +43,24 @@
     header nav .barraNavegacion{
     display: flex;
     flex-wrap: wrap; 
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center; 
+    height: 100vh;
+    }
+    .contacto{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-between;
+        align-items: center; 
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+    }
+
+    footer{
+        width: 100vh;
     }
 }
 
@@ -68,6 +89,7 @@ header nav{
     text-decoration: none;
     background-color: rgb(255, 245, 228);
     top: 0;
+    height: 235px;
 }
 
 
@@ -100,7 +122,6 @@ header nav ul li{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     color: white;
-    display: inline-block;
     background-color: rgb(243,139,174);
     border-radius: 6%;
     margin: 10px;
@@ -108,13 +129,14 @@ header nav ul li{
     position: relative;
     list-style: none;
     position: relative;  
-
+    display: inline-block;
 
 }
 
 header nav ul li a{
     text-decoration: none;
     color: white;
+    
 
 }   
 
@@ -124,6 +146,7 @@ header nav ul li a:hover{
 
 .submenu{
     position: absolute;
+    z-index: 1;
     display: none;
 }
     
@@ -133,12 +156,17 @@ header nav ul li a:hover{
         margin-left: -5px;
     }   
 
-header nav ul li:hover .submenu{
-        display: block; 
+header nav ul li:hover .submenu{ 
+        display: block;
     }
 
 
+
 /*-----MAIN-----*/
+
+main{
+    min-height: calc(100vh - 235px - 200px);
+}
 
 .div{
     text-align: center;
@@ -616,18 +644,27 @@ main{
     text-align: center;
 }
 
+.contacto{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .mapa{
+    background-image: url(../img/fondo.jpg);
+    background-size: 800px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    margin: 10px;
-    padding: 10px;
-    width: 100%;
+    margin: 50px;
+    padding: 50px;
+    width: 600px;
 }
 
 .formulario{
+    color: white;
+    background-color:  rgb(133, 14, 53);
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    margin: 5px;
+    margin-left: 200px;
     padding: 5px;
 }
 
@@ -675,6 +712,9 @@ footer{
     padding: 0;
     background-color: rgb(255, 196, 196);
     text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
 }
 
 footer a{

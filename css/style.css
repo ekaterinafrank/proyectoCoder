@@ -62,9 +62,14 @@
     footer{
         width: 100vh;
     }
+
 }
 
-
+@media screen and (max-width: 550px) {
+    header nav .barraNavegacion{
+        height: 100%;
+    }
+}
 
 
 
@@ -89,7 +94,7 @@ header nav{
     text-decoration: none;
     background-color: rgb(255, 245, 228);
     top: 0;
-    height: 235px;
+    height: auto;
 }
 
 

@@ -51,3 +51,9 @@
         width: 100vh;
     }
 }
+
+@media screen and (max-width: 550px) {
+    header nav .barraNavegacion{
+        height: 100%;
+    }
+}

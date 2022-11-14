@@ -21,7 +21,7 @@ header nav {
   top: 0;
   text-decoration: none;
   font-style: normal;
-  height: 235px; }
+  height: auto; }
   header nav img {
     margin: 15px;
     width: 150px;
@@ -438,3 +438,7 @@ footer {
     margin-left: 0%; }
   footer {
     width: 100vh; } }
+
+@media screen and (max-width: 550px) {
+  header nav .barraNavegacion {
+    height: 100%; } }
